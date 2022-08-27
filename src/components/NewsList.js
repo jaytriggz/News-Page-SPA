@@ -7,7 +7,7 @@ const NewsList = () => {
     const apiKey = "ed2e93f8d74e471fa9f5f6161420b542";
     useEffect(() => {
         const getArticles = async () => {
-            const response = await axios.get(`https://newsapi.org/v2/everything?q=tennis&apikey=${apiKey}`)
+            const response = await axios.get(`https://newsapi.org/v2/everything?q=football&apikey=${apiKey}`)
             setArticles(response.data.articles)
             console.log(response)
         }
