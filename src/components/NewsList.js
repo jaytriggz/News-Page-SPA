@@ -12,7 +12,7 @@ const NewsList = () => {
             console.log(response)
         }
 
-        getArticles()
+        getArticles() 
     }, [])
     return (
         <div className='container'>
